@@ -52,7 +52,7 @@ h2{
     text-shadow: 0 0 17px #000000;
 }
 
-.clock #ampm{
+/* .clock #ampm{
     bottom: 0;
     position: absolute;
     width: 60px;
@@ -60,5 +60,5 @@ h2{
     font-size: 20px;
     background: rgb(89, 4, 150);
     text-shadow: 0 0 17px #000000;
-    /* opacity: 0.8; */
-}
+    /* opacity: 0.8; 
+} */
