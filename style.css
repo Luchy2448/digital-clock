@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?q=80&w=913&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    font-family: sans-serif;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+.clock{
+    display: flex;    
+}
+
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(198, 43, 226);
+    opacity: 0.8;
+    color: white;
+    text-shadow: 0 0 17px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+}
+
+.clock #text { /* Target span.text within div elements inside .clock */
+        
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(89, 4, 150);
+    opacity: 0.8;
+    text-shadow: 0 0 17px #000000;
+}
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: rgb(89, 4, 150);
+    text-shadow: 0 0 17px #000000;
+    /* opacity: 0.8; */
+}
